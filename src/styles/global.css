@@ -58,7 +58,7 @@
 }
 
 .cart-button{
-    @apply bg-[#3C8067] font-semibold w-full rounded-lg text-white flex items-center justify-center gap-4 h-12;
+    @apply bg-[#3C8067] hover:bg-[#004E38] transition-all ease-in-out font-bold w-full rounded-lg text-white flex items-center justify-center gap-4 h-12;
 }
 
 .montsey{
