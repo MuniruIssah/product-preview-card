@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `product-preview-card`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://product-preview-card-git-main-muniruissah.vercel.app/`,
   },
   plugins: [
     {
