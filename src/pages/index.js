@@ -5,8 +5,7 @@ export default function IndexPage() {
       <div className={'App'}>
         <div className={'card'}>
             <div className={'column-1'}>
-                <div className={'image-bg bg-blend-darken'}></div>
-
+                <div className={'image-bg'}></div>
             </div>
             <div className={'column-2'}>
                     <span className={'category montsey '}>perfume</span>

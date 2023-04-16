@@ -1,49 +1,73 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal Starter
-</h1>
+# Frontend Mentor - Product preview card component solution
 
-## 🚀 Quick start
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-1.  **Create a Gatsby site.**
+## Table of contents
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+- [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+- [My process](#my-process)
+    - [Built with](#built-with)
+    - [Awesome Sections](#awesome-sections)
+- [Author](#author)
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-2.  **Start developing.**
+## Overview
 
-    Navigate into your new site’s directory and start it up.
+### The challenge
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+Users should be able to:
 
-3.  **Open the code and start customizing!**
+- View the optimal layout depending on their device's screen size
+- See hover and focus states for interactive elements
 
-    Your site is now running at http://localhost:8000!
+### Screenshot
+#### Desktop
+![](./screenshot.png)
+#### Mobile
+![](./screenshot-mobile.png)
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+### Links
 
-4.  **Learn more**
+- Solution URL: [GitHub Repository](https://github.com/MuniruIssah/product-preview-card)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## My process
 
-## 🚀 Quick start (Netlify)
+### Built with
 
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
+- Semantic HTML5 markup
+- CSS custom properties
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Gatsby.js](https://www.gatsbyjs.com/) - React framework
+- [Tailwind](https://tailwindcss.com/) - For styles
 
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
+### Awesome sections
+Here are some snippets of the code that I think are awwwwesome:
+
+
+```html
+<h1>Some HTML code I'm proud of</h1>
+```
+```css
+.image-bg{
+   @apply w-full h-full  bg-cover bg-no-repeat  w-full h-full min-h-[37vh];
+   background-image: url("../images/image-product-desktop.jpg");
+ }
+@media screen and (max-width: 1023px) {
+  .image-bg{
+    background-image: url("../images/image-product-mobile.jpg");
+  }
+}
+```
+
+
+## Author
+
+- Website - [Issah Muniru](https://muniruissah.github.io/muniru-issahs-portfolio/)
+- Frontend Mentor - [@MuniruIssah](https://www.frontendmentor.io/profile/MuniruIssah)
+- Twitter - [@ningen_dewa_nai](https://www.twitter.com/ningen_dewa_nai)
