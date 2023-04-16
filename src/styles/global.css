@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.App {
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    background:hsl(30, 38%, 92%);
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+.image-bg{
+    @apply w-full h-full  bg-cover bg-no-repeat  w-full h-full min-h-[37vh];
+    background-image: url("../images/image-product-desktop.jpg");
+}
+@media screen and (max-width: 1023px) {
+    .image-bg{
+        background-image: url("../images/image-product-mobile.jpg");
+
+    }
+}
+
+.card{
+    @apply max-w-screen-sm grid lg:grid-cols-2 min-h-[60vh] rounded-xl overflow-hidden shadow-md;
+}
+.column-1{
+
+}
+.column-2{
+    @apply flex-1 p-7 box-border bg-white flex flex-col items-start text-left justify-between space-y-3;
+}
+
+.category{
+    @apply uppercase text-[#6C7289] text-[12px] tracking-[5px];
+}
+.title{
+    @apply text-3xl lg:text-4xl text-[#1C232B] font-bold;
+}
+
+.description{
+    @apply text-[#6C7289] text-sm md:text-[15px];
+}
+.price{
+    @apply flex items-center space-x-5;
+}
+.new-price{
+    @apply text-[#3C8067] text-3xl md:text-4xl;
+}
+.old-price{
+    @apply line-through text-[#6C7289] text-[14px];
+}
+
+.cart-button{
+    @apply bg-[#3C8067] font-semibold w-full rounded-lg text-white flex items-center justify-center gap-4 h-12;
+}
+
+.montsey{
+    font-family: "Montserrat", sans-serif;
+}
+
+.fraunc{
+    font-family: "Fraunces", serif;
+}
