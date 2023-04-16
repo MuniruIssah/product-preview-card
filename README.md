@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/MuniruIssah/product-preview-card)
-- Live Site URL: [Add live site URL here](https://product-preview-card-git-main-muniruissah.vercel.app/)
+- Live Site URL: [Live Site](https://product-preview-card-git-main-muniruissah.vercel.app/)
 
 ## My process
 
