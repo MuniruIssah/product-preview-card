@@ -17,7 +17,7 @@
 }
 
 .image-bg{
-    @apply w-full h-full  bg-cover bg-no-repeat  w-full h-full min-h-[37vh];
+    @apply w-full h-full  bg-cover bg-no-repeat  w-full h-full min-h-[37vh]  hover:grayscale transition-all ease-in-out;
     background-image: url("../images/image-product-desktop.jpg");
 }
 @media screen and (max-width: 1023px) {
@@ -28,11 +28,9 @@
 }
 
 .card{
-    @apply max-w-screen-sm grid lg:grid-cols-2 min-h-[60vh] rounded-xl overflow-hidden shadow-md;
+    @apply max-w-screen-sm grid lg:grid-cols-2 min-h-[56vh] rounded-xl overflow-hidden shadow-md;
 }
-.column-1{
 
-}
 .column-2{
     @apply flex-1 p-7 box-border bg-white flex flex-col items-start text-left justify-between space-y-3;
 }
